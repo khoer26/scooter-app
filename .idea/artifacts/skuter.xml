@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="apk" build-on-make="true" name="skuter">
+    <output-path>$PROJECT_DIR$/out/artifacts/skuter</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyAlias" value="key0" />
+        <option name="keyPassword" value="MTIzNDU2" />
+        <option name="keyStorePassword" value="MTIzNDU2" />
+        <option name="keyStoreUrl" value="file://$PROJECT_DIR$/out/artifacts/skuter/skuterr.jks" />
+        <option name="signingMode" value="RELEASE_SIGNED" />
+      </options>
+    </properties>
+    <root id="archive" name="skuter.apk">
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/skuter/Main.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/skuter/daftar_2a.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/skuter/login_2b.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/skuter/penyewaan_3.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/skuter/detail_transaksi_4.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/skuter/closing_5.java" />
+      <element id="library" level="project" name="mysql-connector-java-5.1.48-bin" />
+    </root>
+  </artifact>
+</component>
